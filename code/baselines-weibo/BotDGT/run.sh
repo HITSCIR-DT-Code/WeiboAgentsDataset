@@ -1,1 +1,0 @@
-nohup python3 train.py --early_stop --device cpu > train.log 2>&1 &

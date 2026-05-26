@@ -1,9 +1,0 @@
-[
-  "friends_count",
-  "statuses_count",
-  "account_age_seconds",
-  "url_ratio",
-  "unique_url_ratio",
-  "tweet_similarity",
-  "friends_rate"
-]

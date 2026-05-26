@@ -10,6 +10,7 @@ TEST_RATIO = 0.15
 with open("Weibo_Labels.json", "r") as f:
     labels = json.load(f)
 
+# 按类别分组，丢弃 label=1，保留 label=-1 单独存储
 groups = defaultdict(list)
 ood_ids = []
 
